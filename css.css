@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+    --text: #ffdbed;
+    --background: #1b000d;
+    --div_bg: #270616;
+    --primary: #fe7cc6;
+    --secondary: #b00901;
+    --accent: #fe581d;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--text);
+}
+
+#header{
+    font-size: 25px;
+    text-align: center;
+    vertical-align: center;
+    /* height: 10svh; */
+    padding: 10px 0 10px 0;
+    background: var(--div_bg);
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+.today{
+    padding-top: 10px;
+    text-align: center;
+    /* width: 100%; */
+}
+td{
+    padding: 5px;
+    box-sizing: border-box;
+}
+td.name{
+    font-size: 16px;
+}
+td.desc{
+    font-size: 12px;
+}
+tr{
+    /* box-shadow: 0 1px 5px 1px var(--accent); */
+    /* border: 10px solid red; */
+    /* outline: 10px solid red; */
+}
+td{
+    background: var(--div_bg);
+}
+.DAY{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    /* background: red; */
+}
+.num{
+    background: linear-gradient(90deg,var(--accent) 0%, var(--div_bg) 50%)
+}
+table{
+    gap: 0;
+    border-spacing: 0 0 100px 0;
+}
+@font-face {
+    font-family: "Pusab Rus"; 
+    src: url("Pusab-Rus.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
